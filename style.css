@@ -1,0 +1,71 @@
+/*style.css*/
+
+/*Universal box sizing set to border box using inheritence to prevent plugins relying on content-box from breaking*/
+
+/*
+buttercup yellow background
+centered main title
+all headings deep dark blue
+dotted lilac borders around individual sections, with space inbetween (cards)
+left aligned content in cards
+bold headings
+
+*/
+
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: rgba(255,229,51,0.2);
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 700px;
+	height: auto;
+}
+
+h1,
+h2 {
+	color: #0000ff;
+	font-weight: bold;
+	font-size: 48px;
+}
+
+h1 {
+        text-align: center;
+        text-decoration: underline;
+        margin-bottom: 0px;
+	font-size: 48px;
+}
+
+h2 {
+	margin: 0 auto;
+	font-size: 32px;
+}
+
+p {
+	font-size: 16px;
+}
+
+.home-button {
+        text-align: center;
+        margin-top: 0px;
+}
+
+.recipe-list,
+.description,
+.ingredients,
+.steps {
+	margin: 20px 300px;	
+	border-style: dotted;
+	border-color: #C8A2C8;
+	border-radius: 10px;
+	padding:20px;
+}
